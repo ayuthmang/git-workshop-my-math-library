@@ -1,0 +1,10 @@
+{
+  "name": "git-workshop-my-math-library",
+  "scripts": {
+    "test": "vitest"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^0.34.6"
+  }
+}

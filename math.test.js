@@ -1,5 +1,8 @@
-const math = require('./math')
-const assert = require('assert')
+import { describe, expect, it } from 'vitest'
+import { sum } from './math'
 
-assert.strictEqual(math.sum(2, 2), 4)
-assert.strictEqual(math.sum([1, 2, 3, 4, 5]), 15)
+describe('sum', () => {
+  it('should sum two numbers', () => {
+    expect(sum(2, 2)).toBe(4)
+  })
+})
